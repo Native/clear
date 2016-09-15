@@ -1,3 +1,15 @@
+/**
+ * @file    main.scss
+ * @author  Ariel Saldana / http://ariel.io
+ */
+/**
+ * @file    constants.scss
+ * @author  Ariel Saldana / http://ariel.io
+ */
+/**
+ * @file    colors.scss
+ * @author  Ariel Saldana / http://ariel.io
+ */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -45,6 +57,14 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/**
+ * @file    clearfix.scss
+ * @author  Ariel Saldana / http://ariel.io
+ */
+/**
+ * @file    responsive.scss
+ * @author  Ariel Saldana / http://ariel.io
+ */
 .row:before, .row:after {
   content: " ";
   display: table; }
@@ -189,6 +209,75 @@ table {
   .col-x-large-1 {
     width: 8.33333%; } }
 
+/* responsive ultilities */
+.visible-xsmall {
+  display: none; }
+  @media only screen and (min-width: 20em) and (max-width: 34.0em) {
+    .visible-xsmall {
+      display: inherit; } }
+
+.visible-small {
+  display: none; }
+  @media only screen and (min-width: 34em) and (max-width: 48.0em) {
+    .visible-small {
+      display: inherit; } }
+
+.visible-medium {
+  display: none; }
+  @media only screen and (min-width: 48em) and (max-width: 62.0em) {
+    .visible-medium {
+      display: inherit; } }
+
+.visible-large {
+  display: none; }
+  @media only screen and (min-width: 62em) and (max-width: 75.0em) {
+    .visible-large {
+      display: inherit; } }
+
+.visible-xlarge {
+  display: none; }
+  @media only screen and (min-width: 75em) {
+    .visible-xlarge {
+      display: inherit; } }
+
+.hidden-xsmall-up {
+  display: inherit; }
+  @media only screen and (min-width: 20em) {
+    .hidden-xsmall-up {
+      display: none; } }
+
+.hidden-small-up {
+  display: inherit; }
+  @media only screen and (min-width: 34em) {
+    .hidden-small-up {
+      display: none; } }
+
+.hidden-medium-up {
+  display: inherit; }
+  @media only screen and (min-width: 48em) {
+    .hidden-medium-up {
+      display: none; } }
+
+.hidden-large-up {
+  display: inherit; }
+  @media only screen and (min-width: 62em) {
+    .hidden-large-up {
+      display: none; } }
+
+.hiddeb-xlarge-up {
+  display: inherit; }
+  @media only screen and (min-width: 75em) {
+    .hiddeb-xlarge-up {
+      display: none; } }
+
+/**
+ * @file    default.scss
+ * @author  Ariel Saldana / http://ariel.io
+ */
+/**
+ * @file    base.scss
+ * @author  Ariel Saldana / http://ariel.io
+ */
 ::-moz-selection {
   /* Code for Firefox */ }
 
@@ -199,3 +288,8 @@ html {
 body {
   margin: 0;
   background-color: #2ecc71; }
+
+/**
+ * @file    type.scss
+ * @author  Ariel Saldana / http://ariel.io
+ */
