@@ -264,11 +264,41 @@ table {
     .hidden-large-up {
       display: none; } }
 
-.hiddeb-xlarge-up {
+.hidden-xlarge-up {
   display: inherit; }
   @media only screen and (min-width: 75em) {
-    .hiddeb-xlarge-up {
+    .hidden-xlarge-up {
       display: none; } }
+
+.visible-xsmall-up {
+  display: none; }
+  @media only screen and (min-width: 20em) {
+    .visible-xsmall-up {
+      display: inherit; } }
+
+.visible-small-up {
+  display: none; }
+  @media only screen and (min-width: 34em) {
+    .visible-small-up {
+      display: inherit; } }
+
+.visible-medium-up {
+  display: none; }
+  @media only screen and (min-width: 48em) {
+    .visible-medium-up {
+      display: inherit; } }
+
+.visible-large-up {
+  display: none; }
+  @media only screen and (min-width: 62em) {
+    .visible-large-up {
+      display: inherit; } }
+
+.visible-xlarge-up {
+  display: none; }
+  @media only screen and (min-width: 75em) {
+    .visible-xlarge-up {
+      display: inherit; } }
 
 /**
  * @file    default.scss
