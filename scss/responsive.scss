@@ -1,0 +1,53 @@
+/**
+ * @file    responsive.scss
+ * @author  Ariel Saldana / http://ariel.io
+ */
+
+$columns : 12;
+$space : 100%;
+$gutter : 15px;
+
+$x-small : "only screen and (min-width: 20em)"; // 320 px
+$small       : "only screen and (min-width: 34em)"; // 544 px
+$medium      : "only screen and (min-width: 48em)"; // 768 px
+$large       : "only screen and (min-width: 62em)"; // 992 px
+$x-large : "only screen and (min-width: 75em)"; // 1200px
+
+.row {
+    @include clearfix();
+}
+
+[class*="col-"] {
+    float:left;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left:$gutter;
+    padding-right:$gutter;
+}
+
+@mixin responsive ($counter, $media) {
+    @while $counter > 0 {
+        // @include responsive( ($counter -1) , $media);
+        .col-#{$media}-#{$counter} {
+                width: (($counter / 12) * 100%);
+        }
+    $counter : ($counter - 1 );
+    }
+} 
+
+@media #{$x-small} {
+    @include responsive($columns, 'x-small');
+}
+@media #{$small} {
+    @include responsive($columns, 'small');
+}
+@media #{$medium} {
+    @include responsive($columns, 'medium');
+}
+@media #{$large} {
+@include responsive($columns, 'large');
+}
+@media #{$x-small} {
+    @include responsive($columns, 'x-large');
+}
+

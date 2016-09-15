@@ -1,0 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.row:before, .row:after {
+  content: " ";
+  display: table; }
+
+.row:after {
+  clear: both; }
+
+[class*="col-"] {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+@media only screen and (min-width: 20em) {
+  .col-x-small-12 {
+    width: 100%; }
+  .col-x-small-11 {
+    width: 91.66667%; }
+  .col-x-small-10 {
+    width: 83.33333%; }
+  .col-x-small-9 {
+    width: 75%; }
+  .col-x-small-8 {
+    width: 66.66667%; }
+  .col-x-small-7 {
+    width: 58.33333%; }
+  .col-x-small-6 {
+    width: 50%; }
+  .col-x-small-5 {
+    width: 41.66667%; }
+  .col-x-small-4 {
+    width: 33.33333%; }
+  .col-x-small-3 {
+    width: 25%; }
+  .col-x-small-2 {
+    width: 16.66667%; }
+  .col-x-small-1 {
+    width: 8.33333%; } }
+
+@media only screen and (min-width: 34em) {
+  .col-small-12 {
+    width: 100%; }
+  .col-small-11 {
+    width: 91.66667%; }
+  .col-small-10 {
+    width: 83.33333%; }
+  .col-small-9 {
+    width: 75%; }
+  .col-small-8 {
+    width: 66.66667%; }
+  .col-small-7 {
+    width: 58.33333%; }
+  .col-small-6 {
+    width: 50%; }
+  .col-small-5 {
+    width: 41.66667%; }
+  .col-small-4 {
+    width: 33.33333%; }
+  .col-small-3 {
+    width: 25%; }
+  .col-small-2 {
+    width: 16.66667%; }
+  .col-small-1 {
+    width: 8.33333%; } }
+
+@media only screen and (min-width: 48em) {
+  .col-medium-12 {
+    width: 100%; }
+  .col-medium-11 {
+    width: 91.66667%; }
+  .col-medium-10 {
+    width: 83.33333%; }
+  .col-medium-9 {
+    width: 75%; }
+  .col-medium-8 {
+    width: 66.66667%; }
+  .col-medium-7 {
+    width: 58.33333%; }
+  .col-medium-6 {
+    width: 50%; }
+  .col-medium-5 {
+    width: 41.66667%; }
+  .col-medium-4 {
+    width: 33.33333%; }
+  .col-medium-3 {
+    width: 25%; }
+  .col-medium-2 {
+    width: 16.66667%; }
+  .col-medium-1 {
+    width: 8.33333%; } }
+
+@media only screen and (min-width: 62em) {
+  .col-large-12 {
+    width: 100%; }
+  .col-large-11 {
+    width: 91.66667%; }
+  .col-large-10 {
+    width: 83.33333%; }
+  .col-large-9 {
+    width: 75%; }
+  .col-large-8 {
+    width: 66.66667%; }
+  .col-large-7 {
+    width: 58.33333%; }
+  .col-large-6 {
+    width: 50%; }
+  .col-large-5 {
+    width: 41.66667%; }
+  .col-large-4 {
+    width: 33.33333%; }
+  .col-large-3 {
+    width: 25%; }
+  .col-large-2 {
+    width: 16.66667%; }
+  .col-large-1 {
+    width: 8.33333%; } }
+
+@media only screen and (min-width: 20em) {
+  .col-x-large-12 {
+    width: 100%; }
+  .col-x-large-11 {
+    width: 91.66667%; }
+  .col-x-large-10 {
+    width: 83.33333%; }
+  .col-x-large-9 {
+    width: 75%; }
+  .col-x-large-8 {
+    width: 66.66667%; }
+  .col-x-large-7 {
+    width: 58.33333%; }
+  .col-x-large-6 {
+    width: 50%; }
+  .col-x-large-5 {
+    width: 41.66667%; }
+  .col-x-large-4 {
+    width: 33.33333%; }
+  .col-x-large-3 {
+    width: 25%; }
+  .col-x-large-2 {
+    width: 16.66667%; }
+  .col-x-large-1 {
+    width: 8.33333%; } }
+
+::-moz-selection {
+  /* Code for Firefox */ }
+
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  margin: 0;
+  background-color: #2ecc71; }
