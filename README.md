@@ -63,3 +63,26 @@ To create a webpage with this framework start with this skeleton:
 
 </html>
 ```
+
+## Responsive functionality
+
+### hide content based on screen size
+
+
+| class            | x-small | small | medium | large | x-large |
+|------------------|---------|-------|--------|-------|---------|
+| hidden-xsmall-up | x       | x     | x      | x     | x       |
+| hidden-small-up  | y       | x     | x      | x     | x       |
+| hidden-medium-up | y       | y     | x      | x     | x       |
+| hidden-large-up  | y       | y     | y      | x     | x       |
+| hidden-xlarge-up | y       | y     | y      | y     | x       |
+
+### Display content based on screen size.
+
+| class             | x-small | small | medium | large | x-large |
+|-------------------|---------|-------|--------|-------|---------|
+| visible-xsmall-up | y       | y     | y      | y     | y       |
+| visible-small-up  | x       | y     | y      | y     | y       |
+| visible-medium-up | x       | x     | y      | y     | y       |
+| visible-large-up  | x       | x     | x      | y     | y       |
+| visible-xlarge-up | x       | x     | x      | x     | y       |
