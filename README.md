@@ -78,7 +78,6 @@ To create a webpage with this framework start with this skeleton:
 
 ### Hide content based on screen size
 
-
 | class              | x-small | small | medium | large | x-large |
 |------------------  |---------|-------|--------|-------|---------|
 | `hidden-xsmall-up` | x       | x     | x      | x     | x       |
@@ -87,4 +86,5 @@ To create a webpage with this framework start with this skeleton:
 | `hidden-large-up`  | y       | y     | y      | x     | x       |
 | `hidden-xlarge-up` | y       | y     | y      | y     | x       |
 
+_remember that all responsive classes must be wrapped around `row` in order to behave as expected_
 
