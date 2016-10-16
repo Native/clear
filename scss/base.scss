@@ -3,6 +3,8 @@
  * @author  Ariel Saldana / http://ariel.io
  */
 
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+
 ::-moz-selection { /* Code for Firefox */
     color: $highlight-text-color;
     background: $highlight-background-color;
@@ -21,4 +23,5 @@ html {
 body { 
   margin: 0; 
   background-color: $background-color; 
+  font-family: $font-stack-primary;
 }
