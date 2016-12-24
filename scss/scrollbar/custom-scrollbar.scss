@@ -1,0 +1,49 @@
+/* Webkit, obviously */
+
+::-webkit-scrollbar { 
+
+    /* 1 */ 
+
+}
+::-webkit-scrollbar-button { 
+     
+    /* 2 */ 
+
+}
+::-webkit-scrollbar-track { 
+
+    /* 3 */ 
+}
+::-webkit-scrollbar-track-piece { 
+
+    /* 4 */ 
+
+}
+::-webkit-scrollbar-thumb { 
+
+    /* 5 */ 
+
+}
+::-webkit-scrollbar-corner { 
+
+    /* 6 */ 
+
+}
+::-webkit-resizer { 
+
+    /* 7 */ 
+
+}
+
+::-webkit-scrollbar-track-piece:start {
+   /* Select the top half (or left half) or scrollbar track individually */
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+   /* Select the thumb when the browser window isn't in focus */
+}
+
+::-webkit-scrollbar-button:horizontal:decrement:hover {
+   /* Select the down or left scroll button when it's being hovered by the mouse */
+}
+
